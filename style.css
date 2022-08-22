@@ -25,12 +25,16 @@ body {
     background: var(--bcolor1);
     z-index: 100;
     padding-top: 1rem;
+    margin: 0;
+    display: flex;
+    justify-content: center;
 }
 .nav_bar {
     display: flex;
     height: 4.5rem;
     gap: 20%;
     align-items: center;
+    width: 80%;
 }
 /* .container {
     max-width: 88.8%;
@@ -133,14 +137,16 @@ body {
     background-color: #1E1E1E;
     margin: auto;
     padding-left: 10%;
+    overflow: hidden;
+}
+.home .container {
+    width: 100%;
 }
 .home .container .img {
-    /* display: flex;
-    justify-content: flex-end; */
     width: 1157px;
     height: 889px;
-    justify-content: flex-end;
     display: flex;
+    width: 100%;
 }
 .home .container .img .img1 {
     /* width: 80%; */
